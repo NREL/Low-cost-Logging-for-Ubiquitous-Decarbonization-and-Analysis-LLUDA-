@@ -8,7 +8,7 @@ _________________________________________________
 - Define variables for storing GPS data, managing files, and handling data logging tasks.
 - Parse NMEA sentences from the GPS module, converting coordinates from NMEA format into decimal degrees, which are already in EPSG:4326.
 - Establish a connection to the GPS module and SD card for data storage, and configure them for logging.
-- Continuously read GPS data (latitude, longitude, time, altitude, etc.), record it in CSV format on the SD card, and manage file creation as needed (dependent on vehicle auxiliary power).
+- Continuously read GPS data (date, time, latitude, longitude, altitude, and speed), record it in CSV format on the SD card, and manage file creation as needed (dependent on vehicle auxiliary power).
 
 <p align="center">
   <img src="https://github.com/user-attachments/assets/b7b4a464-a94d-4c61-be4b-ff4a89e3d96f" alt="inside gps logger" width="300" height="auto" style="margin-right: 20px;"/>
