@@ -11,8 +11,8 @@ _________________________________________________
 - Continuously read GPS data (latitude, longitude, time, altitude, etc.), record it in CSV format on the SD card, and manage file creation as needed (dependent on vehicle auxiliary power).
 
 <p align="center">
-  <img src="https://media.github.nrel.gov/user/2176/files/fa91be52-e4ee-4fdd-a2a0-72244638db70" alt="inside gps logger" width="350" height="auto" style="margin-right: 20px;"/>
-  <img src="https://media.github.nrel.gov/user/2176/files/cdc7c844-694e-41f3-9bb1-c71fef9b19ec" alt="GPS antenna" width="190" height="auto"/>
+  <img src="https://github.com/user-attachments/assets/b7b4a464-a94d-4c61-be4b-ff4a89e3d96f" alt="inside gps logger" width="300" height="auto" style="margin-right: 20px;"/>
+  <img src="https://github.com/user-attachments/assets/66298cb2-057a-490a-a0c4-2d9fbe0657a7" alt="GPS antenna" width="153" height="auto"/>
 </p>
 
 **The logger records the following information at a rate of 1 Hz while a valid GPS fix (when connected to satellites) is being maintained:**
@@ -25,7 +25,7 @@ _________________________________________________
 
 Here’s an example snippet of the GPS data recorded on the SD card (in CSV format) using LLUDA:
 <p align="center"> 
-  <img src="https://media.github.nrel.gov/user/2176/files/f8f424d3-49c5-4c1b-ac3b-794154fcea77" alt="csv output" width="500" height="auto"/>
+  <img src="https://github.com/user-attachments/assets/4aac474d-8868-47e4-87f2-a3bf1331902a" alt="csv output" width="500" height="auto"/>
 </p>
 
 ### Casing + Soldering Adafruit FeatherWing
@@ -66,7 +66,7 @@ _________________________________________________
   - Date Range – Record the specific date range each logger was used on each vehicle if applicable. This helps in identifying which data belongs to which vehicle.
   
 <p align="center">
-  <img src="https://media.github.nrel.gov/user/2176/files/c84cddbf-6e4a-474f-b528-4ada9b36f85a" alt="outside gps logger" width="310" height="auto"/>
+  <img src="https://github.com/user-attachments/assets/b700f4bd-75c1-489b-8a99-6f0921435e43" alt="outside gps logger" width="350" height="auto"/>
 </p>
 
 _________________________________________________
@@ -74,25 +74,25 @@ _________________________________________________
 1) Open the Pelican case and verify that the SMA adapter cable is securely connected to the FeatherWing. Also, ensure that the micro USB extension is properly connected to the FeatherWing, as shown below.
 
 <p align="center">
-  <img src="https://media.github.nrel.gov/user/2176/files/50e23320-d657-4cac-a61b-7f887cabbe23" alt="inside gps logger with description" width="310" height="auto"/>
+  <img src="https://github.com/user-attachments/assets/638ef98b-86d1-4aea-b3db-599b6f8b0f72" alt="inside gps logger with description" width="350" height="auto"/>
 </p>
 
 2) Connect the SMA adapter cable to the antenna (Figure A). Place the antenna on the vehicle’s dashboard and secure it using the fastener on the back. Connect the Micro USB to the Micro USB extender (Figure B).
 
 <p align="center">
-  <img src="https://media.github.nrel.gov/user/2176/files/c48515a6-a8d5-46df-a88c-2df63deeda55" alt="SMA adaptor cable and micro USB extension connection" width="500" height="auto"/>
+  <img src="https://github.com/user-attachments/assets/bd0cf600-0b87-48de-98f1-931fabeb38f0" alt="SMA adaptor cable and micro USB extension connection" width="450" height="auto"/>
 </p>
 
-3) Connect the USB end to the car port charger to the **1 Amp slot** to prevent potential damage to the board from excessive voltage supply, which is shown in the figure below. 
+3) Connect the USB end to the car adapter charger’s **1 Amp slot** (shown in the figure below) to avoid potential damage to the board from excessive voltage. Then, plug the adapter into the cigarette lighter port to power it using the vehicle's auxiliary power. 
 
 <p align="center">
-  <img src="https://media.github.nrel.gov/user/2176/files/9aaeafa9-6ca8-498c-b7d8-baeba02a0657" alt="car port charger" width="250" height="auto"/>
+  <img src="https://github.com/user-attachments/assets/0ee28567-1bde-4d4d-b2af-1579a3ca2222" alt="car adapter charger" width="180" height="auto"/>
 </p>
 
 4) When the FeatherWing is powered (vehicle is on), a red LED will pulsate every second. This indicates that the logger is attempting to connect with GPS satellites. Once it has successfully connected, the red LED changes to pulsating every 15 seconds, meaning it has a GPS fix, and is actively recording the respective GPS data to the SD card. The location of the SD card in the FeatherWing is shown below.
 
 <p align="center">
-  <img src="https://media.github.nrel.gov/user/2176/files/caf3d9f4-41f0-4009-bee0-7937ca90b8b8" alt="car port charger" width="250" height="auto"/>
+  <img src="https://github.com/user-attachments/assets/76d6b7ce-ce61-4d49-8673-8bef43ab3fc3" alt="sd card location" width="180" height="auto"/>
 </p>
 
 ### Arduino Code Overview
