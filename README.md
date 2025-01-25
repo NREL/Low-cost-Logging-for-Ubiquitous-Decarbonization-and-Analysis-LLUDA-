@@ -31,7 +31,7 @@ Here’s an example snippet of the GPS data recorded on the SD card (in CSV form
 ### Casing + Soldering Adafruit FeatherWing
 _________________________________________________
 
-This repository also includes the STL file necessary for 3D printing the logger casing. You can find this in the `/CAD Logger Casing` directory.
+This repository also includes the STL file necessary for 3D printing the logger casing. You can find this in the `/STL Logger Casing` folder.
 
 Use this link on how to solder the male and female header pins for the Adafruit FeatherWing under "Types of Headers": [Soldering Adafruit FeatherWing](https://learn.adafruit.com/how-to-solder-headers/feathers-and-featherwings?gad_source=1&gclid=CjwKCAjw_4S3BhAAEiwA_64YhotCzhuHvyhc-7wuLengRd8agaj9MzUqPYBRsM-82ovQWJ_1ttQ_nRoC2kgQAvD_BwE)
 
