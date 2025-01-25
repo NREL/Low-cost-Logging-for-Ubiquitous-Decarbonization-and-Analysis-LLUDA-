@@ -89,7 +89,7 @@ _________________________________________________
   <img src="https://github.com/user-attachments/assets/0ee28567-1bde-4d4d-b2af-1579a3ca2222" alt="car adapter charger" width="180" height="auto"/>
 </p>
 
-4) When the FeatherWing is powered (vehicle is on), a red LED will pulsate every second. This indicates that the logger is attempting to connect with GPS satellites. Once it has successfully connected, the red LED changes to pulsating every 15 seconds, meaning it has a GPS fix, and is actively recording the respective GPS data to the SD card. The location of the SD card in the FeatherWing is shown below.
+4) When the FeatherWing is powered (vehicle is on), a red LED will pulsate every second. This indicates that the logger is attempting to connect with GPS satellites. Once it has successfully connected, the red LED changes to pulsating every 15 seconds, meaning it has a GPS fix, and is actively recording the respective GPS data to the SD card. The location of the SD card in the M0 Adalogger is shown below.
 
 <p align="center">
   <img src="https://github.com/user-attachments/assets/76d6b7ce-ce61-4d49-8673-8bef43ab3fc3" alt="sd card location" width="180" height="auto"/>
