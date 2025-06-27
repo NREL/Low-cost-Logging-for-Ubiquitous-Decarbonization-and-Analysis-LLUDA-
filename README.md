@@ -1,7 +1,8 @@
 # Low-cost Logging for Ubiquitous Decarbonization and Analysis (LLUDA)
 
-This repository features an Arduino-based GPS logger, called LLUDA, which uses the Adafruit Ultimate GPS FeatherWing with the Adafruit Feather M0 Adalogger, designed to capture and log GPS data in CSV format onto an SD card (embedded inside the Feather M0 Adalogger). The FeatherWing is powered through the vehicle's auxiliary power (from cigarette lighter) socket via a micro USB cable. The data collected can inform a wide range of analyses, including route efficiency, vehicle utilization, and the feasibility of transitioning to electric or higher-efficiency vehicles. 
+This repository features an Arduino-based GPS logger, called LLUDA, which uses the Adafruit Ultimate GPS FeatherWing with the Adafruit Feather M0 Adalogger, designed to capture and log GPS data in CSV format onto an SD card (embedded inside the Feather M0 Adalogger). The FeatherWing is powered through the vehicle's auxiliary power (from cigarette lighter) socket via a micro USB cable.
 
+The data collected can inform a wide range of analyses, including route efficiency, vehicle utilization, and the feasibility of transitioning to electric or higher-efficiency vehicles. 
 _________________________________________________
 
 **This program is designed to:**
